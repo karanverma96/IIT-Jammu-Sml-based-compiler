@@ -1,0 +1,17 @@
+program palindromeCheck ::
+var num,revNum,numCopy,digit:int;
+{
+    read num;
+    numCopy:=num;
+    revNum:=0;
+    while num>0 do {
+        digit:=num%10;
+        revNum:=revNum*10+digit;
+        num:=(num-digit)/10;
+    }endwh;
+    if numCopy=revNum then {
+        write 1;
+    }else{
+        write 0;
+    }endif;
+}

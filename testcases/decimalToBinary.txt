@@ -1,0 +1,15 @@
+program decimalToBinary ::
+var num,binaryEq:int;
+var rem,j:int;
+{
+    read num;
+    binaryEq:=0;
+    j:=1;
+    while num>0 do {
+        rem:=num%2;
+        binaryEq:=binaryEq+j*rem;
+        num:=(num-rem)/2;
+        j:=j*10;
+    }endwh;
+    write binaryEq;
+}

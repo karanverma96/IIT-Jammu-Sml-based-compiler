@@ -1,0 +1,22 @@
+program primeCheck ::
+var num,i,j:int;
+var result:int;
+{
+    result:=1;
+    read num;
+    i:=(num-num%2)/2;
+    j:=2;
+    while j<=i && result=1 do {
+        if num%j=0 then {
+            result:=0;            
+        }else{
+            result:=result*1;
+        }endif;
+        j:=j+1;
+    }endwh;
+    if num>0 then{
+    	write result;
+    }else{
+    	write 0;
+    }endif;
+} 
