@@ -1,0 +1,10 @@
+# SML/NJ and Poly/ML build output
+.cm/
+*.cm
+CM/
+*.o
+*.ui
+*.uo
+
+# Local backups made while cleaning up the repo
+*.bak
