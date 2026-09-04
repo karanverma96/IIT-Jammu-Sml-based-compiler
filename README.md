@@ -145,6 +145,16 @@ $ sml
 
 `read` waits for input on the terminal. Type the value and press enter.
 
+### ***Sample Runs***
+
+| Program | Input | Output |
+|---|---|---|
+| `factorial.txt` | 5 | 120 |
+| `decimalToBinary.txt` | 255 | 11111111 |
+| `palindromeCheck.txt` | 121 | 1 |
+| `primeCheck.txt` | 9 | 0 |
+| `triangleCheck.txt` | 0 0 1 1 2 2 | 0 (collinear) |
+
 
 <!-- PROJECT STRUCTURE -->
 ## Project Structure
